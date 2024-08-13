@@ -1,0 +1,33 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    user-select: none;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.img-fondo {
+    min-height: 100vh;
+    background-image: url('../img/image.webp');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    background-color: #ba3c3d;
+    padding: 20px;
+}
+
+.container-fluid .title {
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+span.input-group-text {
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+}
